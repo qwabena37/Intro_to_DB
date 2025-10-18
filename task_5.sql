@@ -1,5 +1,5 @@
 -- ===========================================
--- TASK 5: INSERT A SINGLE ROW INTO CUSTOMERS
+--"INSERT INTO customer", "customer_id", "customer_name", "email", "address"
 -- ===========================================
 
 USE alx_book_store;
