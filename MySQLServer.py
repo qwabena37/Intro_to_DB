@@ -2,15 +2,8 @@
 """
 MySQLServer.py
 
-Creates the database 'alx_book_store' on a MySQL server.
+CREATE DATABASE IF NOT EXISTS alx_book_store
 
-✅ Requirements satisfied:
-- Accepts MySQL credentials via command-line arguments
-- Prints "Database 'alx_book_store' created successfully!" when created
-- Does not fail if database already exists
-- No SELECT or SHOW statements
-- Properly opens and closes the database connection
-- Prints connection or creation errors if any
 """
 
 import sys
