@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS CUSTOMERS (
     EMAIL VARCHAR(215) UNIQUE NOT NULL,
     ADDRESS TEXT
 );
-
+"Orders", "order_id INT", "customer_id INT", "order_date DATE", "FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
 -- ===========================================
 -- 4️⃣ ORDERS TABLE
 -- ===========================================
