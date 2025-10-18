@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS BOOKS (
         ON UPDATE CASCADE
         ON DELETE SET NULL
 );
-
+"Customers", "customer_id ", "customer_name VARCHAR(215)", "email VARCHAR(215)", "address TEXT"
 -- ===========================================
 -- 3️⃣ CUSTOMERS TABLE
 -- ===========================================
