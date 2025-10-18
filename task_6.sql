@@ -1,6 +1,8 @@
 -- ===========================================
 -- "INSERT INTO customer", "124 Happiness  Ave."
 -- "125 Happiness  Ave."
+-- "126 Happiness  Ave."
+
 -- ===========================================
 
 USE alx_book_store;
