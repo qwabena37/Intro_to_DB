@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS CUSTOMERS (
     EMAIL VARCHAR(215) UNIQUE NOT NULL,
     ADDRESS TEXT
 );
-"Orders", "order_id INT", "customer_id INT", "order_date DATE", "FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
+"Orders", "order_id INT", "customer_id INT", "order_date DATE", "FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)"
 -- ===========================================
 -- 4️⃣ ORDERS TABLE
 -- ===========================================
@@ -47,7 +47,7 @@ CREATE TABLE IF NOT EXISTS ORDERS (
         ON UPDATE CASCADE
         ON DELETE CASCADE
 );
-
+"Order_Details", "book_id INT", "quantity DOUBLE", "FOREIGN KEY (order_id) REFERENCES Orders(order_id)", "FOREIGN KEY (book_id) REFERENCES Books(book_id)"
 -- ===========================================
 -- 5️⃣ ORDER_DETAILS TABLE
 -- ===========================================
