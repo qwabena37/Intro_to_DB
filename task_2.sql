@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS AUTHORS (
     AUTHOR_ID INT AUTO_INCREMENT PRIMARY KEY,
     AUTHOR_NAME VARCHAR(215) NOT NULL
 );
-
+"""Books", "title", "price"""
 -- ===========================================
 -- 2️⃣ BOOKS TABLE
 -- ===========================================
