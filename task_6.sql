@@ -1,5 +1,5 @@
 -- ===========================================
--- TASK 6: INSERT MULTIPLE ROWS INTO CUSTOMERS
+-- "INSERT INTO customer", "124 Happiness  Ave."
 -- ===========================================
 
 USE alx_book_store;
